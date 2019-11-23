@@ -12,53 +12,61 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="contact.html">Contact</a>
-                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-    </header>
-    <section class="primary">
-        <div class="details">
-            <h2 class="title">Contact</h2>
-            <div class="form"></div>
-            <p class="namefield">Name</p>
-            <input class="input in-name" type="text" name="name" placeholder="your name here..">
-            <p class="emailfield">Email</p>
-            <input class="input in-email" type="text" name="name" placeholder="example@example.com">
-            <p class="messagefield">Message</p>
-            <textarea class="messagefield" placeholder="Leave a message"></textarea> <br>
-            <button class="button" type="submit">Submit</button>
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="copyright"> ©copyright</p>
-    </footer>
+<body>
+    <div class=".container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <form>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label" for="inputMessage">Leave me a message</label>
+                <input type="message" class="form-control" id="exampleCheck1">
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+
+        <footer class="footer">
+            <p class="copyright"> ©copyright</p>
+        </footer>
+    </div>
+
 </body>
