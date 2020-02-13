@@ -1,27 +1,91 @@
-.column {
-    width: 33.3%;
-    float: left;
-    }
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-.main {
-    width: 15px;
-    height: 20px;
+.column{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .fa-linkedin {
-    background: #007bb5;
     color: white;
     width: 30px;
     height: 30px;
   }
+  .fa-github {
+    color: white;
+    width: 30px;
+    height: 30px;
+  }
+  .github {
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+  .linked {
+      margin-left: 40px;
+      margin-right: 40px;
+  }
 
   body{
-      background-image: url("./images/bluehex.jpg");
+      background-image: url("./assets/images/backgroundimage.jpeg");
       }
 
 p {
     color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
 }
+.card-container{
+    display: flex;
+    justify-content:center;
+    height: 600px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: auto 25px;
+    border: none;
+    height: 70%;
+}
+.summary {
+    height: 350px;
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+font-family: 'Times New Roman', Times, serif;
+}
+.main {
+    background-color: white;
+    width: auto;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .social {
+    
+    height: 100%;
+    display: flex;
+    padding: auto 7rem;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.card-body {
+    background-color: white;
+  }
