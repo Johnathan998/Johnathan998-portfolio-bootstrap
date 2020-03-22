@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 
 </head>
 
@@ -27,7 +28,7 @@
                 </div>
             </div>
         </nav>
-        <h1 style="text-align: center;">Portfolio by Johnathan Olivas</h1>
+        <h1 style="text-align: center;" class="title">Portfolio by Johnathan Olivas</h1>
     </header>
 
     <div class=".container-fluid summary">
@@ -46,36 +47,41 @@
             on in my U of U coding class.
         </p>
     </div>
-    <div class="card-container row">
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/work.png" class="card-img" alt="...">
-            <div class="card-body">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="./assets/images/work.png" class="card-img" style="size: 100px;">
 
-                <a href="portfolio.html" class="btn btn-dark">My projects</a>
+                    <a href="portfolio.html" class="btn btn-dark">My projects</a>
+                </div>
             </div>
         </div>
         <br>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/resume-image.png" class="card-img" alt="...">
-            <div class="card-body">
-
-                <a href="./assets/resume.pdf" class="btn btn-dark">Resume</a>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="./assets/images/resume-image.png" class="card-img" alt="...">
+                    <a href="./assets/resume.pdf" class="btn btn-dark">Resume</a>
+                </div>
             </div>
-
         </div>
         <br>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/contact-card.png" class="card-img" alt="...">
-            <div class="card-body">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="./assets/images/contact-card.png" class="card-img" alt="...">
 
-                <a href="contact.html" class="btn btn-dark">Contact Me</a>
+                    <a href="contact.html" class="btn btn-dark">Contact Me</a>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 
     </div>
+    <footer class="footer">
 
+    </footer>
 </body>
 
 </html>
